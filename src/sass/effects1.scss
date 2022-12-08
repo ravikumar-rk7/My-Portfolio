@@ -1,0 +1,8 @@
+@for $i from 1 to 9 {
+    .image-#{$i} {
+        box-shadow: 2px 2px 3px white;
+        margin-left: $i * 150px;
+        width: 100px;
+        height: 100px;
+    }
+}

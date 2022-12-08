@@ -1,0 +1,238 @@
+<style>
+        .heading{
+            text-align: center;
+            padding: 20px;
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 40px;
+        }
+        .header{
+          font-family: Arial;
+          font-weight: bold;
+          display: grid;
+          grid-template-columns: 8fr 4fr;
+          background-color: #8F6B6B;
+          color: rgb(238, 226, 226);
+          padding: 20px;
+          justify-content: space-between;
+          border-radius: 40px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .left-column span {
+          padding-right: 50px;
+        }
+        .header span:hover{
+            color:black;
+        }
+        .right-column{
+            font-family: Arial;
+            text-align: right;
+            padding-left: 20px;
+        }
+    
+        img{
+            width: 100%;
+            padding-top: 5px;
+        }
+        .section{
+            height: auto;
+        }
+        footer{
+            background-color: rgb(203, 199, 199);
+        }
+       .row{
+        align-items: center;
+        padding-top: 30px;
+        margin-left: 500px;
+       }
+       button{
+        width: 300px;
+        height: 50px;
+        align-items: center;
+        font-size: 20px;
+        background-color: orange;
+        color: white;
+        border-radius: 10px;
+        border: none;
+       }
+       .row1{
+        align-items: center;
+        margin-left: 50px;
+       }
+       .button1{
+        width: 200px;
+        height: 50px;
+        align-items: center;
+        font-size: 20px;
+        background-color: rgb(11, 182, 250);
+        color: white;
+        border: none;
+        margin-top: 30px;
+        border-radius: 10px;
+       }
+       .content{
+        font-family: Arial;
+        font-size: 15px;
+        text-indent: 30px;
+        align-items: center;
+        margin-left: 280px;
+        margin-right: 50px;
+        margin-top: 20px;
+       }
+       .group-items p{
+        text-align: center;
+        font-size: 30px;
+        font-family: arial;
+        padding-top: 10px;
+       }
+       .group-items{
+        background-color: rgb(184, 217, 244);
+        
+       }
+       .items{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+
+       }
+       .icons{
+        font-size: 50px;
+        display: flex;
+        justify-content: space-between;
+        
+       }
+       .head1{
+        margin-right: 40px;
+        font-family: Arial;
+       }
+       .content1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+       }
+       li{
+        line-height: 30px;
+       }
+       .container{
+        display: grid;
+        grid-template-columns: 8fr 4fr;
+        padding: 20px;
+        justify-content: space-between;
+        font-family: Arial;
+       }
+       .container1{
+        display: grid;
+        grid-template-columns: 4fr 8fr;
+        justify-content: space-between;
+        padding: 20px;
+        justify-content: space-between;
+        font-family: Arial;
+       }
+       .container div{
+        padding: 20px;
+       }
+       .container1 div{
+        padding: 20px;
+       }
+       .buttons-1{
+        display: flex;
+        align-content: center;
+        padding: 30px;
+        justify-content: center;
+       }
+       .button-1-1{
+        margin-right: 20px;
+        width: fit-content;
+       }
+       .button-2-2{
+        width: fit-content;
+       }
+       .group-items-1{
+        background-color: lightcyan;
+       }
+       .group-items-1{
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px;
+        list-style: none;
+        margin-bottom: 20px;
+       }
+       .icons-1{
+        font-size: 50px;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding-top: 40px;
+        padding-bottom: 80px;
+       }
+       .group-items-2{
+        background-color:lightcyan;
+       }
+       ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        font-family: Arial;
+       }
+       .caption1{
+        margin-left: 400px;
+        font-family: Arial;
+        padding-top: 30px;
+        font-size: 15px;
+       }
+       footer {
+            background-color:black;
+            color: white;
+            width: 100%;
+            height: 80%;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .title{
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr 3fr;
+            margin-left: 100px;
+            margin-top: 30px;
+            margin-right: 10px;
+        }
+        .rightpannel{
+            display: flex;
+        }
+        .title-content{
+            display: grid;
+            margin-top: 20px;
+            margin-right: 30px;  
+            padding: 30px;
+        }
+        .socialicons span{
+            font-size: 30px;
+            padding: 20px;  
+            margin-top: 50px;
+            color: blue;
+            align-items: center;
+        }
+        .id4{
+            color: white;
+            font-family: Arial;
+            padding-left: 20px;
+            padding: 20px;
+        }
+        .main{
+            display: inline;
+        }
+        .main1{
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            justify-content: center;
+            padding-bottom: 20px;
+        }
+        table{
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+    </style>
