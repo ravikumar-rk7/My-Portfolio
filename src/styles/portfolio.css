@@ -90,24 +90,15 @@
   /*===== CLASS CSS ===== */
   .section-title {
     position: relative;
-    font-size: var(--h2-font-size);
+    font-weight: bold;
     color: var(--first-color);
     margin-top: var(--mb-2);
     margin-bottom: var(--mb-4);
     text-align: center;
+    background-color: lightgray;
   }
   
-  .section-title::after {
-    position: absolute;
-    content: '';
-    width: 64px;
-    height: 0.18rem;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 2rem;
-    background-color: var(--first-color);
-  }
+  
   
   .section {
     padding-top: 3rem;
@@ -128,7 +119,7 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: #fff;
+    background-color: #aba8a8;
     box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
   }
   
@@ -178,10 +169,13 @@
     background-color: var(--first-color);
   }
   
-  .nav__logo {
-    color: var(--second-color);
+  .nav__logo{
+    color: #080808;
   }
-  
+
+  .nav__logo span{
+    color: red;
+  }
   .nav__toggle {
     color: var(--second-color);
     font-size: 1.5rem;
@@ -338,11 +332,11 @@
   }
   
   .skills__html {
-    width: 90%;
+    width: 100%;
   }
   
   .skills__css {
-    width: 85%;
+    width: 80%;
   }
   
   .skills__js {
@@ -350,7 +344,7 @@
   }
   
   .skills__ux {
-    width: 85%;
+    width: 60%;
   }
   
   .skills__img {
@@ -399,8 +393,8 @@
   
   /* ===== FOOTER =====*/
   .footer {
-    background-color: var(--second-color);
-    color: #fff;
+    background-color: #aba8a8;
+    color: #0a0a0a;
     text-align: center;
     font-weight: var(--font-semi);
     padding: 2rem 0;
@@ -470,7 +464,7 @@
     }
     .contact__form {
       width: 360px;
-      padding-top: 2rem;
+      padding-top: 1rem;
     }
     .contact__container {
       justify-items: center;
@@ -479,11 +473,12 @@
   
   @media screen and (min-width: 768px) {
     body {
-      margin: 0;
+      margin: 0%;
+      padding: 0%;
     }
     .section {
-      padding-top: 4rem;
-      padding-bottom: 3rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
     }
     .section-title {
       margin-bottom: var(--mb-6);
