@@ -65,6 +65,10 @@
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     color: var(--second-color);
+    background-image: url(../../images/ejyny7jo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
   }
   
   h1, h2, p {
