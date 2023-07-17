@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="src/styles/portfolio.css">
@@ -163,29 +164,63 @@
         <section class="work section" id="work">
             <h2 class="section-title">Work</h2>
 
-            <div class="work__container bd-grid">
-                <a target="_blank" href="https://ravikumar-rk7.github.io/My-Portfolio" class="work__img">
-                    <img src="images/W-1.jpg" alt="Portfolio">
-                </a>
-                <a target="_blank" href="https://rkclicks.my.canva.site" class="work__img">
-                    <img src="images/W-2.jpg" alt="Photography">
-                </a>
-                <a href="" class="work__img">
-                    <img src="images/W-5.jpg" alt="">
-                </a>
-                <a href="" class="work__img">
-                    <img src="images/W-4.jpg" alt="">
-                </a>
-                <a href="" class="work__img">
-                    <img src="images/W-3.jpg" alt="">
-                </a>
-                <a class="work__img">
-                    <img src="images/W-6.jpg" alt="">
-                </a>
+            <div class="portfolio">
+                <div class="portfolio-item">
+                  <a target="_blank" style="text-decoration: none;" href="https://ravikumar-rk7.github.io/My-Portfolio"><img src="images/W-3.jpg" alt="Project 1">
+                  <div class="title">Project 1</div>
+                  <div class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc varius consectetur mauris, non pellentesque tellus. Nullam quis erat neque.
+                  </div>
+                  </a>
+                </div>
+                <div class="portfolio-item">
+                  <a target="_blank" style="text-decoration: none;" href="https://rkclicks.my.canva.site">
+                    <img src="images/W-1.jpg" alt="Project 2">
+                  <div class="title">Project 2</div>
+                  <div class="description">
+                    Sed pretium purus augue, id mattis sapien faucibus sed. Nulla facilisi. Suspendisse potenti. Maecenas semper malesuada est ut varius.
+                  </div>
+                  </a>
+                </div>
+                <div class="portfolio-item">
+                    <a target="_blank" style="text-decoration: none;" href="https://ravikumar-rk7.github.io/My-Portfolio"><img src="images/W-3.jpg" alt="Project 1">
+                    <div class="title">Project 1</div>
+                    <div class="description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc varius consectetur mauris, non pellentesque tellus. Nullam quis erat neque.
+                    </div>
+                    </a>
+                  </div>
+                  <div class="portfolio-item">
+                    <a target="_blank" style="text-decoration: none;" href="https://rkclicks.my.canva.site">
+                      <img src="images/W-1.jpg" alt="Project 2">
+                    <div class="title">Project 2</div>
+                    <div class="description">
+                      Sed pretium purus augue, id mattis sapien faucibus sed. Nulla facilisi. Suspendisse potenti. Maecenas semper malesuada est ut varius.
+                    </div>
+                    </a>
+                  </div>
+                  <div class="portfolio-item">
+                    <a target="_blank" style="text-decoration: none;" href="https://ravikumar-rk7.github.io/My-Portfolio"><img src="images/W-3.jpg" alt="Project 1">
+                    <div class="title">Project 1</div>
+                    <div class="description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc varius consectetur mauris, non pellentesque tellus. Nullam quis erat neque.
+                    </div>
+                    </a>
+                  </div>
+                  <div class="portfolio-item">
+                    <a target="_blank" style="text-decoration: none;" href="https://rkclicks.my.canva.site">
+                      <img src="images/W-1.jpg" alt="Project 2">
+                    <div class="title">My Portfolio</div>
+                    <div class="description">
+                      Sed pretium purus augue, id mattis sapien faucibus sed. Nulla facilisi. Suspendisse potenti. Maecenas semper malesuada est ut varius.
+                    </div>
+                    </a>
+                  </div>
             </div>
+                
         </section>
          <!--===== CONTACT =====-->
-         <section class="contact section" id="contact">
+        <section class="contact section" id="contact">
             <h2 class="section-title">Contact</h2>
             <div class="d-flex justify-content-between">
                 <div class="col-6">
@@ -200,9 +235,7 @@
                     </form>
                 </div>
             </div>
-        </section>  
-    </main>
-
+        </section>
     <!--===== FOOTER =====-->
     <footer class="footer">
         <p class="footer__title">P.Ravikumar</p>
@@ -218,5 +251,7 @@
 
 
     <link rel="stylesheet" href="node_modules/jquery/dist/jquery.js">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -350,25 +350,51 @@
   .skills__img {
     border-radius: .5rem;
   }
-  
-  /* ===== WORK =====*/
-  .work__container {
-    row-gap: 2rem;
+
+   /* ===== WORK =====*/
+
+  .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
-  .work__img {
-    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
-    border-radius: .5rem;
+  .portfolio-item {
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
     overflow: hidden;
+    transition: box-shadow 0.3s ease;
   }
   
-  .work__img img {
-    transition: 1s;
+  .portfolio-item:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   }
   
-  .work__img img:hover {
-    transform: scale(1.1);
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
   }
+  
+  .portfolio-item .title {
+    padding: 10px;
+    background-color:#4070F4;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .portfolio-item .description {
+    padding: 10px;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .portfolio-item {
+      width: 100%;
+    }
+  }
+  
   
   /* ===== CONTACT =====*/
   .contact__input {
@@ -541,3 +567,4 @@
       width: 450px;
     }
   }
+  
